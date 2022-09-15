@@ -260,3 +260,29 @@ a {
   margin-bottom: 1.25rem;
 
 }
+
+/* footer */
+
+.footer {
+  padding-top: 5rem;
+}
+
+.footer__rights {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_copy, .footer_terms-link {
+  font-size: .813rem;
+  color: rgb(0, 0, 0)
+}
+
+.footer__terms {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
