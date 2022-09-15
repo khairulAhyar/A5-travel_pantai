@@ -208,3 +208,55 @@ a {
 .discover__description {
   color:white;
 }
+
+/* places */
+.place_card, .place_img {
+  height: 263px;
+}
+
+.place__container {
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 3rem 2rem;
+}
+
+.place__card {
+  position: relative;
+}
+
+.place_content, .place_title {
+  color: white;
+}
+
+.place__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: .75rem .75rem 1rem;
+}
+
+
+.place__rating-number {
+  font-size:.813rem;
+}
+
+.place_subtitle, .place_price {
+  display: block;
+}
+
+.place__title {
+  font-size: 1rem;
+  margin-bottom: .25rem;
+}
+
+.place__subtitle {
+  font-size: .75rem;
+  margin-bottom: 1.25rem;
+
+}
