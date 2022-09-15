@@ -178,3 +178,33 @@ a {
 .about__img-two {
   width: 290px;
 }
+
+/* discover */
+.discover__card {
+  position: relative;
+  width: 237px;
+  overflow: hidden;
+}
+
+.discover__container {
+  grid-template-columns: repeat(5, max-content);
+  justify-content: center;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+.discover__data {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 2rem;
+}
+
+.discover__title {
+  font-size: 1.25rem;
+}
+.discover__title, 
+.discover__description {
+  color:white;
+}
