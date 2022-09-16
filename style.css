@@ -15,7 +15,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: .938rem;
   background-color: rgb(42, 128, 128);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h1, h2, h3 {
@@ -79,6 +79,7 @@ a {
 
 .nav__logo {
   font-weight: 600;
+  color:white;
 }
 
 .nav__link {
@@ -247,11 +248,13 @@ a {
 
 .place_subtitle, .place_price {
   display: block;
+  color: white;
 }
 
 .place__title {
   font-size: 1rem;
   margin-bottom: .25rem;
+  color: white;
 }
 
 .place__subtitle {
